@@ -14,91 +14,123 @@
 }
 
 .container{
-    background-color: black;
+    
     width: 100%;
     height: auto;
+    background-color: rgb(126, 140, 182);
+    background-image: radial-gradient(circle, rgba(99, 109, 119, 0.534) 0%, rgba(34, 60, 145, 0.568) 71%), url(assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    
+    
+    
+ 
   
 }
 
 .cards{
 
     width: 90%;
-    height: 1000px;
-    position: relative;    
-    display:flex; 
-    flex-wrap: wrap; 
-    gap:20px;     
+    height: 800px;
+    display:flex;
+    position: relative;   
+    flex-wrap: wrap;       
     align-content: center;  
     justify-content: center;
-    height: 1000px;
-    margin: 50px;
+    
+     
 
-
-  
-}
-
-li{
-    list-style: none;
 }
 
 img{
-    width: 250px;
-    height: 280px;
-    border: 2px solid yellow;   
+    width: 200px;
+    height: 200px;    
+    border-radius: 30px;      
+    margin:10px;
+    border: 1px rgba(132, 138, 229, 0.664);
+    box-shadow: 100px 50px 48px -3px  rgba(160, 165, 240, 0.664);
   
 
+}  
+
+li{
+    list-style: none;
+    
 }
 
-.cards_img1{
-    box-shadow: 50px 20px 48px -13px rgba(71, 8, 172, 0.637);
-    transform:rotate(10deg);
-    border-radius: 20px;   
-   /*position: absolute;
-    right: 100px;*/
+
+
+.cards_img1{    
+    
+    transform:rotate(10deg);  
+    margin-bottom: 15px;   
+ 
 }
 
 .cards_img2{
-    box-shadow: 50px 20px 48px -13px rgba(71, 8, 172, 0.637);
-    transform:rotate(-10deg);
-    border-radius: 20px;
-
-    /*position:absolute;
-    top:100px;*/
+   box-shadow: -100px 50px 48px -3px  rgba(132, 138, 229, 0.664);
+   transform:rotate(-10deg);
+   margin-bottom: 15px;   
+    
+   
 }
 
 .cards_img3{
-    box-shadow: 50px 20px 48px -13px rgba(71, 8, 172, 0.637);
+    
     transform:rotate(10deg);
-    border-radius: 20px;
-   /* position: absolute;
-    bottom: 5px;*/
+    margin-bottom: 80px;   
+   
 }
 
+ 
 h1{
         position: absolute;
-        bottom: 500px;
-        left:-100px;
-        align-items: center;
+        bottom: 375px;
+        left:10px;        
         transform:rotate(90deg);
         font-size: 100px;
-        color: #fff;
+        color:#fff;
+            
+        
     }
-
-    p{
+h2{
+    position:absolute;
+    top: 60px;
+    right:-206px;    
+    transform:rotate(90deg);
+    -webkit-text-fill-color: rgba(137, 144, 233, 0.432);
+}
+ p{
         font-family: 'Journey Unicorn', sans-serif;
-        font-size: 22px;
-        color: #fff;
+        font-size: 22px;         
         position: absolute;
-        right: 50px;
+        color: #fff;
+            
         
     }
 
+    .p_1{
+          
+       right: 10px;
+       top:130px;
+    }
+
+    .p_2{
+          
+       right: 10px;
+       top:350px;
+    }
+
+    .p_3{
+     
+       right: 10px;
+       bottom:170px;
+    }
 
 .cards2{
-    width: 100%;
-    height: 1000px;
-    background-color: skyblue;
-
+   
+  background-color: rgb(126, 140, 182);
+  width: 100%;
+  height: auto;
 }
-
-
